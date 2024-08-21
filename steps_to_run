@@ -1,0 +1,7 @@
+python3.11 -m venv myenv
+
+source myenv/bin/activate
+
+pip install crewai python-dotenv langchain_openai langchain_community
+
+pip install 'crewai[tools]'
